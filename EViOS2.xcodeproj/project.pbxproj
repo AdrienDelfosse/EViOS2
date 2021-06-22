@@ -15,6 +15,15 @@
 		F2345E8E2681DCDF00886901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F2345E8C2681DCDF00886901 /* LaunchScreen.storyboard */; };
 		F2345E992681DCDF00886901 /* EViOS2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2345E982681DCDF00886901 /* EViOS2Tests.swift */; };
 		F2345EA42681DCDF00886901 /* EViOS2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2345EA32681DCDF00886901 /* EViOS2UITests.swift */; };
+		F2345EB32681EC8400886901 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2345EB52681EC8400886901 /* Localizable.strings */; };
+		F2345EB82681F62000886901 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2345EB72681F62000886901 /* LoginViewController.swift */; };
+		F2345EBA2682192900886901 /* PokemonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2345EB92682192900886901 /* PokemonViewController.swift */; };
+		F2345EBC26821BBB00886901 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2345EBB26821BBB00886901 /* TabBarViewController.swift */; };
+		F2345EBE26821DA400886901 /* PickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2345EBD26821DA400886901 /* PickerViewController.swift */; };
+		F2345EC02682233900886901 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2345EBF2682233900886901 /* Pokemon.swift */; };
+		F2345EC32682252A00886901 /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2345EC12682252A00886901 /* CustomTableViewCell.swift */; };
+		F2345EC42682252A00886901 /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F2345EC22682252A00886901 /* CustomTableViewCell.xib */; };
+		F2345EC62682304300886901 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2345EC52682304300886901 /* NavigationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +58,16 @@
 		F2345E9F2681DCDF00886901 /* EViOS2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EViOS2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2345EA32681DCDF00886901 /* EViOS2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EViOS2UITests.swift; sourceTree = "<group>"; };
 		F2345EA52681DCDF00886901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F2345EB42681EC8400886901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2345EB62681ECB500886901 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F2345EB72681F62000886901 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F2345EB92682192900886901 /* PokemonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PokemonViewController.swift; sourceTree = "<group>"; };
+		F2345EBB26821BBB00886901 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		F2345EBD26821DA400886901 /* PickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerViewController.swift; sourceTree = "<group>"; };
+		F2345EBF2682233900886901 /* Pokemon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
+		F2345EC12682252A00886901 /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		F2345EC22682252A00886901 /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		F2345EC52682304300886901 /* NavigationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +125,15 @@
 				F2345E8A2681DCDF00886901 /* Assets.xcassets */,
 				F2345E8C2681DCDF00886901 /* LaunchScreen.storyboard */,
 				F2345E8F2681DCDF00886901 /* Info.plist */,
+				F2345EB52681EC8400886901 /* Localizable.strings */,
+				F2345EB72681F62000886901 /* LoginViewController.swift */,
+				F2345EB92682192900886901 /* PokemonViewController.swift */,
+				F2345EBB26821BBB00886901 /* TabBarViewController.swift */,
+				F2345EBD26821DA400886901 /* PickerViewController.swift */,
+				F2345EBF2682233900886901 /* Pokemon.swift */,
+				F2345EC12682252A00886901 /* CustomTableViewCell.swift */,
+				F2345EC22682252A00886901 /* CustomTableViewCell.xib */,
+				F2345EC52682304300886901 /* NavigationViewController.swift */,
 			);
 			path = EViOS2;
 			sourceTree = "<group>";
@@ -213,6 +241,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = F2345E752681DCDF00886901;
 			productRefGroup = F2345E7F2681DCDF00886901 /* Products */;
@@ -232,7 +261,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2345E8E2681DCDF00886901 /* LaunchScreen.storyboard in Resources */,
+				F2345EB32681EC8400886901 /* Localizable.strings in Resources */,
 				F2345E8B2681DCDF00886901 /* Assets.xcassets in Resources */,
+				F2345EC42682252A00886901 /* CustomTableViewCell.xib in Resources */,
 				F2345E892681DCDF00886901 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -258,8 +289,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2345EC32682252A00886901 /* CustomTableViewCell.swift in Sources */,
+				F2345EB82681F62000886901 /* LoginViewController.swift in Sources */,
+				F2345EC02682233900886901 /* Pokemon.swift in Sources */,
+				F2345EBA2682192900886901 /* PokemonViewController.swift in Sources */,
 				F2345E862681DCDF00886901 /* ViewController.swift in Sources */,
 				F2345E822681DCDF00886901 /* AppDelegate.swift in Sources */,
+				F2345EBC26821BBB00886901 /* TabBarViewController.swift in Sources */,
+				F2345EBE26821DA400886901 /* PickerViewController.swift in Sources */,
+				F2345EC62682304300886901 /* NavigationViewController.swift in Sources */,
 				F2345E842681DCDF00886901 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -312,6 +350,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		F2345EB52681EC8400886901 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F2345EB42681EC8400886901 /* en */,
+				F2345EB62681ECB500886901 /* fr */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -319,6 +366,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -380,6 +428,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
